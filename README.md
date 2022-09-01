@@ -39,7 +39,7 @@ git clone https://github.com/kalanakt/All-Url-Uploader
 cd All-Url-Uploader
 pip3 install -r requirements.txt
 # EDIT sample_config.py values appropriately
-python3 main.py
+python3 bot.py
 ```
 ## Found a Bug 🐛
 
