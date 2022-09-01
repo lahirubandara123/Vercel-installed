@@ -4,10 +4,10 @@ class Config((object)):
     # set as False , leave it like this
     WEBHOOK = bool(os.environ.get('WEBHOOK', False))
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5336908648:AAFUJ-ytiRjimqoQMnnIIWmXnipmKc-uLu8")
     # The Telegram API things
-    APP_ID = int(os.environ.get("APP_ID", 12345))
-    API_HASH = os.environ.get("API_HASH")
+    APP_ID = int(os.environ.get("APP_ID", 14577588))
+    API_HASH = os.environ.get("API_HASH", "fe03c9e02b9386322fd726a44acbc09a")
     # Get these values from my.telegram.org
     # Banned Unwanted Members..
     BANNED_USERS = {int(x) for x in os.environ.get("BANNED_USERS", "").split()}
@@ -33,11 +33,11 @@ class Config((object)):
     # watermark file
     DEF_WATER_MARK_FILE = ""
     # your telegram id
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "1144259889"))
     # database session name, example: xurluploader
     SESSION_NAME = os.environ.get("SESSION_NAME", "")
     # database uri (mongodb)
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://lahirubandara:redindian@supuntest.2t0ftzx.mongodb.net/?retryWrites=true&w=majority")
     PROCESS_TEXT = """
     Process: {}
     """
